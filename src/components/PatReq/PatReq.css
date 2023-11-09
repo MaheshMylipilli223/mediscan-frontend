@@ -1,0 +1,22 @@
+/* Center the table container horizontally and vertically */
+.PatReqdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    height: 90vh;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+/* Style the table container */
+.TableContainer {
+    width: 70%;
+    /* You can adjust the width as needed */
+}

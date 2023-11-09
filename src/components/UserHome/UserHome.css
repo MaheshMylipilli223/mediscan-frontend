@@ -1,0 +1,40 @@
+.searchboxes {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    /* Use flexbox to create a row layout */
+    justify-content: space-between;
+    /* Space evenly between the cards */
+}
+
+
+.card {
+    width: calc(50% - 10px);
+    /* Set the width of each card to 50% of the container with some spacing */
+    padding: 10px;
+    border: 1px solid rgb(242, 238, 238);
+    /* box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); */
+}
+
+.full-size-image-container {
+    width: 75%;
+    /* Set the container width to 100% of its parent or viewport */
+    height: 50vh;
+    /* Set the container height to 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Hide any overflow content from the container */
+}
+
+.full-size-image {
+    width: 35%;
+    /* Make the image width 100% of the container */
+    height: 35%;
+    /* Make the image height 100% of the container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+}

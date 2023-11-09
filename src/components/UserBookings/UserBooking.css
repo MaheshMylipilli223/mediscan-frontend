@@ -1,0 +1,16 @@
+.userbookingdiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    /* Center text within the 'dummy' div */
+}
+
+h1 {
+    color: Black;
+    /* Set the text color to white */
+    font-size: 80px;
+    /* Adjust the font size as needed */
+}

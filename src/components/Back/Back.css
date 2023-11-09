@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-container {
+    background-color: #f0f0f0;
+    /* Add a background color if needed */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
